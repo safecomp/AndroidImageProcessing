@@ -1,0 +1,105 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DitheringActivity">
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/atkinson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atkinson" />
+        <Button
+            android:id="@+id/burkes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Burkes" />
+        <Button
+            android:id="@+id/falseFloydSteinberg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FalseFloydSteinberg" />
+        <Button
+            android:id="@+id/floydSteinberg  "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FloydSteinberg  " />
+        <Button
+            android:id="@+id/jarvisJudiceNinke"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JarvisJudiceNinke" />
+        <Button
+            android:id="@+id/ordered2By2Bayer  "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ordered2By2Bayer  " />
+        <Button
+            android:id="@+id/ordered3By3Bayer "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ordered3By3Bayer " />
+        <Button
+            android:id="@+id/ordered4By4Bayer "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ordered4By4Bayer " />
+        <Button
+            android:id="@+id/ordered8By8Bayer "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ordered8By8Bayer " />
+        <Button
+            android:id="@+id/randomDithering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RandomDithering" />
+        <Button
+            android:id="@+id/sierra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sierra" />
+        <Button
+            android:id="@+id/sierraLite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SierraLite" />
+        <Button
+            android:id="@+id/simpleLeftToRightErrorDiffusion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SimpleLeftToRightErrorDiffusion" />
+        <Button
+            android:id="@+id/simpleThreshold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SimpleThreshold" />
+        <Button
+            android:id="@+id/stucki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stucki" />
+        <Button
+            android:id="@+id/twoRowSierra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="twoRowSierra" />
+        
+        
+        
+    </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>
