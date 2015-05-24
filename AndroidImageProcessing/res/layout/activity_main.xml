@@ -34,6 +34,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Dithering" />
+        <Button
+            android:id="@+id/temperatureAdjustment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temperature Adjustment" />
+        
 
     </LinearLayout>
 

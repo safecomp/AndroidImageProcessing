@@ -6,5 +6,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_dithering">DitheringActivity</string>
     <string name="title_activity_display">DisplayActivity</string>
+    <string name="title_activity_temperature_adjustment">TemperatureAdjustmentActivity</string>
+    <string name="title_activity_temp_test">TempTestActivity</string>
 
 </resources>
